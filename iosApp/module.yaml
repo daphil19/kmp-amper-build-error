@@ -1,0 +1,10 @@
+product: ios/app
+
+repositories:
+  - https://gitlab.com/api/v4/projects/47538655/packages/maven
+
+dependencies:
+  - ../shared
+
+settings:
+  compose: enabled

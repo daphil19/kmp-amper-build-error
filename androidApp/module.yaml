@@ -1,0 +1,16 @@
+product: android/app
+
+repositories:
+  - https://gitlab.com/api/v4/projects/47538655/packages/maven
+
+dependencies:
+  - ../shared
+  - $libs.androidx.compose.ui.tooling.preview
+  - $libs.androidx.activity.compose
+
+settings:
+  compose: enabled
+  android:
+    applicationId: com.jetbrains.kmpapp
+    namespace: com.jetbrains.kmpapp
+    minSdk: 28
